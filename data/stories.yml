@@ -1,0 +1,13 @@
+version: "3.1"
+
+stories:
+
+- story: skincare advice
+  steps:
+  - intent: ask_skincare_routine
+  - action: action_skincare_advice
+
+- story: haircare advice
+  steps:
+  - intent: ask_haircare_routine
+  - action: action_haircare_advice
